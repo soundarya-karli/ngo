@@ -250,7 +250,14 @@ nav ul li a{
   margin:10px;
   border-radius:5px;
   }
+    nav li a{
+        font-size: 1vw;
+    }
 }
+            
+  
+            
+            
 @media(max-width: 780px)
 {
   #heading{
@@ -516,8 +523,8 @@ font-family: 'Oswald', sans-serif;
             </label>
 
 
-            <label class="logo">SABS</label>
-            <ul>
+            <label class="logo" style="float:left;width:16%">SABS</label>
+            <ul style="">
                <li><a class="active"  href="index.php"><i class="fa fa-home"></i>&nbsp;<strong>Home</strong></a></li>
       <li><a href="index.php#mission"><strong>Mission</strong></a></li>
       <li> <a href="index.php#initiatives"><strong>Initiatives</strong></a></li>
