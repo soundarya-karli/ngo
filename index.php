@@ -130,18 +130,72 @@ include "functions.php";
     width: 200px;
     height: 150px;
     float: center;
+    margin: 0 auto;
+    display: block;
 }
+
 #achievement{margin: min-content;}
 #achievement h2 {font-size:40px;}
 .team-gallery img {margin:auto;}
 .body-content {padding: unset;width:min-content;}
 .motivation-item h2{font-size: 40px;text-align: center;}
 .motivation-item h2{font-size:40px;}
-.rounded-circle {height: 150px;width: 200px;}
+.rounded-circle {height: 120px;
+    width: 120px;
+    display:inherit;
+    margin : auto;    
+}
 #popUp {top:35%;}
 .submitId {
     width: min-content;}
-            }
+            
+    .invi{
+    display: none;
+  }
+  #home{
+    height: 100vh;
+    overflow:hidden;
+  }
+  #mission{
+    height: 100vh;
+    overflow:hidden;
+  }
+  #initiatives{
+    height: 100vh;
+    overflow:hidden;
+
+  }
+  #achievement{
+    height: 100vh;
+    overflow:hidden;
+  }
+  .set{
+    height: 100vh;
+    overflow:hidden;
+  }
+  #box {
+    height: 20vh;
+}
+#box font{
+    display:none;
+}
+#partners{
+    height: 100vh;
+    overflow :hidden;
+}
+.responsive1{
+    display:block;
+    overflow:hidden;
+}
+.responsive2{
+    display:block;
+    overflow:hidden;
+}
+.responsive3{
+    display:block;
+    overflow:hidden;
+}
+}
 
 
         </style>
@@ -295,7 +349,7 @@ include "functions.php";
                 </div>
             </div>
 
-
+                    </div>
         <br>
         <br>
 
@@ -314,20 +368,21 @@ include "functions.php";
                             and betterment.We also aim at setting-up of rehabilitation centres for needy & affected people
                             and help them live a better life.We also implement youth welfare schemes and arrange personality
                             development seminar for the youth welfare.Our objective is to establish an equipped blood and eye bank
-                            for welfare of the needful.<br><br>
-                            We here at Sahayog Apang Bahuudeshya Sanstha believe in equality and humanity.<br><br>
+                            for welfare of the needful.
+                            <p class = "invi"><br><br>We here at Sahayog Apang Bahuudeshya Sanstha believe in equality and humanity.</p>
 
-                             Our vision is to create a developed nation where one day, all children in this nation
-                            will have the opportunity to attain an excellent education and have access to fully functioning and equipped medical system for the disabled ones where we all live gracefully, leading towards a better life.<br>
+                            <p class = "invi"> <br><br>Our vision is to create a developed nation where one day, all children in this nation
+                            will have the opportunity to attain an excellent education and have access to fully functioning and equipped medical system for the disabled ones where we all live gracefully, leading towards a better life.</p>
+                            <img src="img/image2.jpg" class="imageDiv">
                         </div>
-
+                        
 
                     </div>
 
                     <div class="col-lg-1 col-md-3">
 
                         <br><br><br><br><br><br>
-                        <img src="img/image2.jpg" class="imageDiv">
+                        
                     </div>
                 </div>
             </div>
@@ -411,7 +466,7 @@ include "functions.php";
 
         <!-- Messages-->
         <!-- Chairman's Message -->
-        <div id="message1" class="container-fluid" >
+        <div id="message1" class="container-fluid set" >
 
             <div class="container" >
                 <div class="row">
@@ -430,8 +485,6 @@ include "functions.php";
                     </div>
 
                     <div class="col-lg-3">
-
-                        <br><br><br><br><br>
                         <img src="img/chairman.jpg" class="imageDiv">
                     </div>
                 </div>
@@ -441,14 +494,14 @@ include "functions.php";
         <br><br>
 
         <!-- Secretary's Message  -->
-         <div id="message1" class="container-fluid" >
+         <div id="message1" class="container-fluid set" >
 
             <div class="container" >
                 <div class="row">
 
                      <div class="col-lg-3">
 
-                        <br><br><br>
+                        
                         <img src="img/vice-chairman.jpg" class="imageDiv">
                         <br>
                         <br>
@@ -473,7 +526,7 @@ include "functions.php";
 
 
 
-         <div id="message1" class="container-fluid city">
+         <div id="message1" class="container-fluid city set">
 
             <div class="container" >
                 <div class="row">
@@ -487,7 +540,6 @@ include "functions.php";
 
                     <div class="col-lg-3">
 
-                        <br><br><br><br><br>
                         <img src="img/ranjan.jpg" class="imageDiv">
                         <br>
                     </div>
@@ -514,13 +566,13 @@ include "functions.php";
                 </div>
                 <div class="row">
                     <div class="col-lg-9">
-                        <br><br>
+                        <br>
                         <div id="paragraph3">
                             The Ramji Bodre Manav Kalyan of the Bahuudeshiye Seva Bhawi Sanstha Raji,Aaurangabad awarded the <strong style="color: #6b5b95;">Jagtika Mahila Dina Nimit Gaurav Puraskar </strong>
                             on <br>7 March 2011 in recognition to the various support and services to
                             the Specially abled people.
 
-                            <br>
+                            
                         </div>
                     </div>
 
@@ -911,26 +963,26 @@ function pass(){
         <br>
 
 
-        <div class="box">
+        <div class="box" id = "partners">
             <h2>Supporting Partners</h2>
             <div class="box-content">
                 <div class="responsive1">
-                    <div class="gallery">
+                   
                         <img src="logo.png" >
                         <div class="des"><a href="https://www.innerworkindia.com" style="text-decoration:none";><h3>Innerwork Solution pvt. ltd.</h3></a></div>
-                    </div>
+                    
                 </div>
                 <div class="responsive2">
-                    <div class="gallery">
+                    
                         <img src="img/ashalogo.jpg" >
                         <div class="des"><a href="http://www.ashafoundation.org/" style="text-decoration:none";><h3>Asha For Education</h3></a></div>
-                    </div>
+                    
                 </div>
                 <div class="responsive3">
-                    <div class="gallery">
+                    
                         <img src="img/download.png" >
                         <div class="des"><a href="" style="text-decoration:none";><h3>Abhinav Balak Mandir</h3></a></div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -949,16 +1001,16 @@ function pass(){
                     <div class="border"></div>
                     <ul>
                         <a href=""style="text-decoration:none;"><li>Home</li></a>
-                        <a href=""style="text-decoration:none;"><li>Mission</li></a>
-                        <a href=""style="text-decoration:none;"><li>Initiatives</li></a>
-                        <a href=""style="text-decoration:none;"><li>Message</li></a>
+                        <a href="#mission"style="text-decoration:none;"><li>Mission</li></a>
+                        <a href="#initiatives"style="text-decoration:none;"><li>Initiatives</li></a>
+                        <a href="#message1"style="text-decoration:none;"><li>Message</li></a>
                     </ul></div>
                 <div class="footer-items">
                     <ul>
                         <a href=""style="text-decoration:none;"><li></li></a>
-                        <a href=""style="text-decoration:none;"><li>Team</li></a>
-                        <a href=""style="text-decoration:none;"><li>Motivation</li></a>
-                        <a href=""style="text-decoration:none;"><li>Contact Us</li></a>
+                        <a href="#teamMembers"style="text-decoration:none;"><li>Team</li></a>
+                        <a href="#motivation"style="text-decoration:none;"><li>Motivation</li></a>
+                        <a href="contact.html"style="text-decoration:none;"><li>Contact Us</li></a>
                     </ul>
                 </div>
 
@@ -973,11 +1025,10 @@ function pass(){
                         <li><i class="fa fa-envelope" aria-hidden="true"></i><a href=""style="text-decoration:none;">info@sabsngo.org</a></li>
                     </ul>
                     <div class="social-media">
-                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/sabs.ngo.org"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/Sahyog_Apang_Sanstha/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.twitter.com/home"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://www.youtube.com/channel/UCV1y_6glcUEt3eeRJkk83pw"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
