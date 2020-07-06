@@ -1001,16 +1001,16 @@ function pass(){
                     <div class="border"></div>
                     <ul>
                         <a href=""style="text-decoration:none;"><li>Home</li></a>
-                        <a href=""style="text-decoration:none;"><li>Mission</li></a>
-                        <a href=""style="text-decoration:none;"><li>Initiatives</li></a>
-                        <a href=""style="text-decoration:none;"><li>Message</li></a>
+                        <a href="#mission"style="text-decoration:none;"><li>Mission</li></a>
+                        <a href="#initiatives"style="text-decoration:none;"><li>Initiatives</li></a>
+                        <a href="#message1"style="text-decoration:none;"><li>Message</li></a>
                     </ul></div>
                 <div class="footer-items">
                     <ul>
                         <a href=""style="text-decoration:none;"><li></li></a>
-                        <a href=""style="text-decoration:none;"><li>Team</li></a>
-                        <a href=""style="text-decoration:none;"><li>Motivation</li></a>
-                        <a href=""style="text-decoration:none;"><li>Contact Us</li></a>
+                        <a href="#teamMembers"style="text-decoration:none;"><li>Team</li></a>
+                        <a href="#motivation"style="text-decoration:none;"><li>Motivation</li></a>
+                        <a href="contact.html"style="text-decoration:none;"><li>Contact Us</li></a>
                     </ul>
                 </div>
 
@@ -1025,11 +1025,10 @@ function pass(){
                         <li><i class="fa fa-envelope" aria-hidden="true"></i><a href=""style="text-decoration:none;">info@sabsngo.org</a></li>
                     </ul>
                     <div class="social-media">
-                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/sabs.ngo.org"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/Sahyog_Apang_Sanstha/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.twitter.com/home"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://www.youtube.com/channel/UCV1y_6glcUEt3eeRJkk83pw"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
