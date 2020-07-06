@@ -59,7 +59,7 @@ nav ul li a{
 }
 .active,a:hover{
   background: rgb(248, 247, 153);
-  font-color:rgb(57, 202, 238);
+  color:rgb(57, 202, 238);
   transition: .5s;
 }
 .checkbtn{

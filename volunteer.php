@@ -210,6 +210,12 @@ nav ul li a{
     font-size: 10px;
   }
 }
+@media (max-width: 1120px){
+  #heading {
+      font-size: 35px;
+  }
+}
+
 @media (max-width: 858px){
   .checkbtn{
     display: block;
@@ -241,21 +247,22 @@ nav ul li a{
     left: 0;
   }
 }
-@media (max-width: 854px){
+@media (max-width: 1020px){
   #heading{
-        font-size: 30px;
+        font-size: 25px;
   }
   #logo{
-  width:100px;
-  height:60px;
+  width:90px;
+  height:50px;
   margin:10px;
   border-radius:5px;
   }
 }
-@media(max-width: 780px)
+@media(max-width: 854px)
 {
   #heading{
     font-size: 17px;
+
   }
   #logo{
   width:90px;
@@ -521,7 +528,7 @@ font-family: 'Oswald', sans-serif;
                    <img id="logo" src="img/ngologo.jpg" style="margin-left:20px; " alt="Image not Found">
                 </div>
 
-                 <div class="col-lg-9 col-md-9">
+                 <div class="col-lg-9">
                    <center><font id="heading" style="margin-right: auto;text-align:justify;" >SAHAYOG APANG BAHUUDESHYA SANSTHA</font></center>
                 </div>
 
@@ -530,7 +537,6 @@ font-family: 'Oswald', sans-serif;
         </div>
 
     </div>
-    <br>
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
        <nav>
