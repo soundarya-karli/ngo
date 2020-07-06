@@ -140,7 +140,11 @@ include "functions.php";
 .body-content {padding: unset;width:min-content;}
 .motivation-item h2{font-size: 40px;text-align: center;}
 .motivation-item h2{font-size:40px;}
-.rounded-circle {height: 150px;width: 200px;}
+.rounded-circle {height: 120px;
+    width: 120px;
+    display:inherit;
+    margin : auto;    
+}
 #popUp {top:35%;}
 .submitId {
     width: min-content;}
@@ -174,6 +178,22 @@ include "functions.php";
 }
 #box font{
     display:none;
+}
+#partners{
+    height: 100vh;
+    overflow :hidden;
+}
+.responsive1{
+    display:block;
+    overflow:hidden;
+}
+.responsive2{
+    display:block;
+    overflow:hidden;
+}
+.responsive3{
+    display:block;
+    overflow:hidden;
 }
 }
 
@@ -546,13 +566,13 @@ include "functions.php";
                 </div>
                 <div class="row">
                     <div class="col-lg-9">
-                        <br><br>
+                        <br>
                         <div id="paragraph3">
                             The Ramji Bodre Manav Kalyan of the Bahuudeshiye Seva Bhawi Sanstha Raji,Aaurangabad awarded the <strong style="color: #6b5b95;">Jagtika Mahila Dina Nimit Gaurav Puraskar </strong>
                             on <br>7 March 2011 in recognition to the various support and services to
                             the Specially abled people.
 
-                            <br>
+                            
                         </div>
                     </div>
 
@@ -943,26 +963,26 @@ function pass(){
         <br>
 
 
-        <div class="box">
+        <div class="box" id = "partners">
             <h2>Supporting Partners</h2>
             <div class="box-content">
                 <div class="responsive1">
-                    <div class="gallery">
+                   
                         <img src="logo.png" >
                         <div class="des"><a href="https://www.innerworkindia.com" style="text-decoration:none";><h3>Innerwork Solution pvt. ltd.</h3></a></div>
-                    </div>
+                    
                 </div>
                 <div class="responsive2">
-                    <div class="gallery">
+                    
                         <img src="img/ashalogo.jpg" >
                         <div class="des"><a href="http://www.ashafoundation.org/" style="text-decoration:none";><h3>Asha For Education</h3></a></div>
-                    </div>
+                    
                 </div>
                 <div class="responsive3">
-                    <div class="gallery">
+                    
                         <img src="img/download.png" >
                         <div class="des"><a href="" style="text-decoration:none";><h3>Abhinav Balak Mandir</h3></a></div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
