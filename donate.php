@@ -104,7 +104,7 @@
                 z-index: 1;
                 color: black;
                 font-size: 1vw;
-                top:22vh;
+                top:6vh;
                 text-align: center;
                 height: 100px;
 
@@ -165,16 +165,24 @@ label.logo{
   line-height: 50px;
   padding: 0 100px;
   font-weight: bold;
+  position: relative;
+  top: -25%;
+  margin-top: 1%;
 }
 nav ul{
-  float: right;
+  
   margin-right: 20px;
+  position: relative;
+  top: -21%;
+  float: right;
 
 }
 nav ul li{
   display: inline-block;
   line-height: 50px;
   margin: 0 5px;
+  
+  margin-top: 1%;
 }
 nav ul li a{
   color: black;
@@ -182,6 +190,7 @@ nav ul li a{
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
+
 }
 .active,a:hover{
   background: rgb(248, 247, 153);
@@ -210,6 +219,22 @@ nav ul li a{
   }
 }
 @media (max-width: 858px){
+  #heading{
+  font-family: 'Courgette', cursive;
+  font-family: 'Metal Mania', cursive;
+
+  font-size:30px;
+  color:white;
+  padding-top: 2%;
+
+}
+#logo{
+  width:90px;
+  height:50px;
+  margin:9px;
+  border-radius:5px;
+  float: left;
+  }
   .checkbtn{
     display: block;
   }
@@ -219,7 +244,7 @@ nav ul li a{
     height: 70vh;
     /*background:#ffdab3;*/
     background-color: rgba(0, 0, 0, 0.6);
-    top: 50px;
+    top: 20px;
     left: -100%;
     text-align:center;
     transition: all .3s;
@@ -254,7 +279,7 @@ nav ul li a{
 @media(max-width: 780px)
 {
   #heading{
-    font-size: 17px;
+    font-size: 30px;
   }
   #logo{
   width:90px;
@@ -498,7 +523,7 @@ font-family: 'Oswald', sans-serif;
                 </div>
 
                  <div class="col-lg-9 col-md-9">
-                   <center><font id="heading" style="margin-right: 200px;" >SAHAYOG APANG BAHUUDESHYA SANSTHA</font></center>
+                   <center><font id="heading" style="margin-right: 100px;" >SAHAYOG APANG BAHUUDESHYA SANSTHA</font></center>
                 </div>
 
 
