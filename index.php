@@ -134,6 +134,20 @@ include "functions.php";
     display: block;
 }
 
+@media(max-width: 780px)
+{
+    #home{
+        display: none;
+    }
+    #nvbr{
+        background-color:white;z-index:1000;
+        height:70%;
+        top:50px;
+    }
+    
+}
+                
+                
 #achievement{margin: min-content;}
 #achievement h2 {font-size:40px;}
 .team-gallery img {margin:auto;}
@@ -271,7 +285,7 @@ include "functions.php";
 
 
 
-        <nav>
+        <nav style="z-index: 9999;background-color:white;">
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
                 <i class="fas fa-bars"></i>
@@ -279,7 +293,7 @@ include "functions.php";
 
 
             <label class="logo">SABS</label>
-            <ul>
+            <ul style="" id="nvbr">
                 <li><a class="active" href="#home"><i class="fa fa-home"></i>&nbsp;<strong>Home</strong></a></li>
                 <li><a href="#mission"><strong>Mission</strong></a></li>
                 <li><a href="#initiatives"><strong>Initiatives</strong></a></li>
