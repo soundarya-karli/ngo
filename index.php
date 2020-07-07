@@ -161,11 +161,9 @@ include "functions.php";
 
 @media(max-width: 780px)
 {
-    #home{
-        display: none;
-    }
+
     #nvbr{
-        ;z-index:1000;
+        z-index:1000;
         height:70%;
         top:50px;
     }
@@ -192,7 +190,7 @@ include "functions.php";
     display: none;
   }
   #home{
-    height: 100vh;
+
     overflow:hidden;
   }
   #mission{
@@ -200,24 +198,19 @@ include "functions.php";
     overflow:hidden;
   }
   #initiatives{
-    height: 100vh;
-    overflow:hidden;
+    height: auto;
+
 
   }
-  #achievement{
-    height: 100vh;
-    overflow:hidden;
-  }
+
   .set{
     height: 100vh;
     overflow:hidden;
   }
   #box {
-    height: 20vh;
+    height: auto;
 }
-#box font{
-    display:none;
-}
+
 #partners{
     height: 100vh;
     overflow :hidden;
@@ -344,7 +337,7 @@ include "functions.php";
 
        <!--  Gallery -->
 
-        <div id="home" >
+        <div id="home" style="height:auto;">
             <div id="slider" class="container-fluid padNone">
                 <div id="apnaCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
 
@@ -547,7 +540,7 @@ include "functions.php";
                      <br>
                         <br>
 
-                        <img src="img/vice-chairman.jpg" class="imageDiv">
+
 
                     </div>
 
@@ -601,7 +594,7 @@ include "functions.php";
 
         <!-- Achievements -->
 
-        <div id="achievement" class="container-fluid city">
+        <div id="achievement" class="container-fluid city" style="height:auto;">
 
 
             <div class="container">
