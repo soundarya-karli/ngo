@@ -143,12 +143,12 @@ include "functions.php";
 .rounded-circle {height: 120px;
     width: 120px;
     display:inherit;
-    margin : auto;    
+    margin : auto;
 }
 #popUp {top:35%;}
 .submitId {
     width: min-content;}
-            
+
     .invi{
     display: none;
   }
@@ -258,7 +258,7 @@ include "functions.php";
                 </div>
 
                  <div class="col-lg-9 col-md-9">
-                   <center><font id="heading" style="margin-right: auto;text-align:justify;" >SAHAYOG APANG BAHUUDESHYA SANSTHA</font></center>
+                   <center><font id="heading" style="margin-right:auto;text-align:justify;" >SAHAYOG APANG BAHUUDESHYA SANSTHA</font></center>
                 </div>
 
 
@@ -375,14 +375,14 @@ include "functions.php";
                             will have the opportunity to attain an excellent education and have access to fully functioning and equipped medical system for the disabled ones where we all live gracefully, leading towards a better life.</p>
                             <img src="img/image2.jpg" class="imageDiv">
                         </div>
-                        
+
 
                     </div>
 
                     <div class="col-lg-1 col-md-3">
 
                         <br><br><br><br><br><br>
-                        
+
                     </div>
                 </div>
             </div>
@@ -501,7 +501,7 @@ include "functions.php";
 
                      <div class="col-lg-3">
 
-                        
+
                         <img src="img/vice-chairman.jpg" class="imageDiv">
                         <br>
                         <br>
@@ -572,7 +572,7 @@ include "functions.php";
                             on <br>7 March 2011 in recognition to the various support and services to
                             the Specially abled people.
 
-                            
+
                         </div>
                     </div>
 
@@ -967,22 +967,22 @@ function pass(){
             <h2>Supporting Partners</h2>
             <div class="box-content">
                 <div class="responsive1">
-                   
+
                         <img src="logo.png" >
                         <div class="des"><a href="https://www.innerworkindia.com" style="text-decoration:none";><h3>Innerwork Solution pvt. ltd.</h3></a></div>
-                    
+
                 </div>
                 <div class="responsive2">
-                    
+
                         <img src="img/ashalogo.jpg" >
                         <div class="des"><a href="http://www.ashafoundation.org/" style="text-decoration:none";><h3>Asha For Education</h3></a></div>
-                    
+
                 </div>
                 <div class="responsive3">
-                    
+
                         <img src="img/download.png" >
                         <div class="des"><a href="" style="text-decoration:none";><h3>Abhinav Balak Mandir</h3></a></div>
-                    
+
                 </div>
             </div>
         </div>

@@ -438,6 +438,13 @@ font-family: 'Oswald', sans-serif;
     font-family: 'Metal Mania';
     color:rgba(54, 56, 55, 0.86);
 }
+@media (min-width: 768px){
+.col-md-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+}
 
          </style>
     </head>
@@ -498,7 +505,7 @@ font-family: 'Oswald', sans-serif;
                 </div>
 
                  <div class="col-lg-9 col-md-9">
-                   <center><font id="heading" style="margin-right: 200px;" >SAHAYOG APANG BAHUUDESHYA SANSTHA</font></center>
+                   <center><font id="heading" style="margin-right: auto;text-align:justify;" >SAHAYOG APANG BAHUUDESHYA SANSTHA</font></center>
                 </div>
 
 
