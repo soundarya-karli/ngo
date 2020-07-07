@@ -170,7 +170,7 @@ label.logo{
   margin-top: 1%;
 }
 nav ul{
-  
+
   margin-right: 20px;
   position: relative;
   top: -21%;
@@ -181,7 +181,7 @@ nav ul li{
   display: inline-block;
   line-height: 50px;
   margin: 0 5px;
-  
+
   margin-top: 1%;
 }
 nav ul li a{
@@ -218,6 +218,18 @@ nav ul li a{
     font-size: 10px;
   }
 }
+@media (max-width: 1116px){
+   nav ul{font-size:2px;}
+ }
+ @media (max-width: 1085px){
+    nav ul{font-size:1px;}
+    label.logo{padding-left: unset;}
+  }
+  @media (max-width: 1034px){
+
+     nav ul{font-size:0px;}
+     label.logo{display: none;}
+   }
 @media (max-width: 858px){
   #heading{
   font-family: 'Courgette', cursive;
@@ -463,6 +475,13 @@ font-family: 'Oswald', sans-serif;
     font-family: 'Metal Mania';
     color:rgba(54, 56, 55, 0.86);
 }
+@media (min-width: 768px){
+.col-md-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+}
 
          </style>
     </head>
@@ -523,7 +542,11 @@ font-family: 'Oswald', sans-serif;
                 </div>
 
                  <div class="col-lg-9 col-md-9">
+
+
+
                    <center><font id="heading" style="margin-right: 100px;" >SAHAYOG APANG BAHUUDESHYA SANSTHA</font></center>
+
                 </div>
 
 

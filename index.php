@@ -53,7 +53,16 @@ include "functions.php";
         <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Metal+Mania&family=Oleo+Script&display=swap" rel="stylesheet">
             <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <style>
-            
+
+        nav {
+    background-color: rgb(252, 182, 121) !important;
+    height: 50px;
+    width: 100%;
+}
+        label.logo{
+          padding-left:10px;
+        }
+
             #setotp{
                 display:none;
             }
@@ -120,6 +129,21 @@ include "functions.php";
                 color:#e6005c;
             }
             .dropdown-content a:hover{color:#e6005c; }
+            @media (max-width: 858px){
+               nav ul{  z-index: 99;}
+             }
+             @media (max-width: 1116px){
+                nav ul{font-size:2px;}
+              }
+              @media (max-width: 1085px){
+                 nav ul{font-size:1px;}
+                 label.logo{padding-left: unset;}
+               }
+               @media (max-width: 1034px){
+
+                  nav ul{font-size:0px;}
+                  label.logo{display: none;}
+                }
             @media only screen and (max-width: 521px){
               #mission, {margin:20px;}
               #mission .fontText, .team h2 {font-size: 40px;}
@@ -135,6 +159,20 @@ include "functions.php";
     display: block;
 }
 
+@media(max-width: 780px)
+{
+    #home{
+        display: none;
+    }
+    #nvbr{
+        ;z-index:1000;
+        height:70%;
+        top:50px;
+    }
+
+}
+
+
 #achievement{margin: min-content;}
 #achievement h2 {font-size:40px;}
 .team-gallery img {margin:auto;}
@@ -144,12 +182,12 @@ include "functions.php";
 .rounded-circle {height: 120px;
     width: 120px;
     display:inherit;
-    margin : auto;    
+    margin : auto;
 }
 #popUp {top:35%;}
 .submitId {
     width: min-content;}
-            
+
     .invi{
     display: none;
   }
@@ -259,7 +297,7 @@ include "functions.php";
                 </div>
 
                  <div class="col-lg-9 col-md-9">
-                   <center><font id="heading" style="margin-right: auto;text-align:justify;" >SAHAYOG APANG BAHUUDESHYA SANSTHA</font></center>
+                   <center><font id="heading" style="margin-right:auto;text-align:justify;" >SAHAYOG APANG BAHUUDESHYA SANSTHA</font></center>
                 </div>
 
 
@@ -272,7 +310,7 @@ include "functions.php";
 
 
 
-        <nav>
+        <nav style="z-index: 9999;">
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
                 <i class="fas fa-bars"></i>
@@ -280,7 +318,7 @@ include "functions.php";
 
 
             <label class="logo">SABS</label>
-            <ul>
+            <ul style="" id="nvbr">
                 <li><a class="active" href="#home"><i class="fa fa-home"></i>&nbsp;<strong>Home</strong></a></li>
                 <li><a href="#mission"><strong>Mission</strong></a></li>
                 <li><a href="#initiatives"><strong>Initiatives</strong></a></li>
@@ -373,11 +411,12 @@ include "functions.php";
                             will have the opportunity to attain an excellent education and have access to fully functioning and equipped medical system for the disabled ones where we all live gracefully, leading towards a better life.</p>
                             <img src="img/image2.jpg" class="imageDiv">
                         </div>
-                        
+
 
                     </div>
 
-                    
+
+
                 </div>
             </div>
         </div>
@@ -477,9 +516,9 @@ include "functions.php";
                             into the mainstream of the society.<br>
                         </div>
                     </div>
-                
+
                     <div class="col-lg-3">
-                    
+
                     <br>
                         <br>
                     <br>
@@ -499,13 +538,17 @@ include "functions.php";
 
                      <div class="col-lg-3">
 
+
+
+                        <img src="img/vice-chairman.jpg" class="imageDiv">
                      <br>
+
                         <br>
                      <br>
                         <br>
 
                         <img src="img/vice-chairman.jpg" class="imageDiv">
-                        
+
                     </div>
 
                     <div class="col-lg-9">
@@ -540,7 +583,7 @@ include "functions.php";
                     </div>
 
                     <div class="col-lg-3">
-                
+
                     <br>
                         <br>
                      <br>
@@ -577,7 +620,7 @@ include "functions.php";
                             on <br>7 March 2011 in recognition to the various support and services to
                             the Specially abled people.
 
-                            
+
                         </div>
                     </div>
 
@@ -972,22 +1015,22 @@ function pass(){
             <h2>Supporting Partners</h2>
             <div class="box-content">
                 <div class="responsive1">
-                   
+
                         <img src="logo.png" >
                         <div class="des"><a href="https://www.innerworkindia.com" style="text-decoration:none";><h3>Innerwork Solution pvt. ltd.</h3></a></div>
-                    
+
                 </div>
                 <div class="responsive2">
-                    
+
                         <img src="img/ashalogo.jpg" >
                         <div class="des"><a href="http://www.ashafoundation.org/" style="text-decoration:none";><h3>Asha For Education</h3></a></div>
-                    
+
                 </div>
                 <div class="responsive3">
-                    
+
                         <img src="img/download.png" >
                         <div class="des"><a href="" style="text-decoration:none";><h3>Abhinav Balak Mandir</h3></a></div>
-                    
+
                 </div>
             </div>
         </div>

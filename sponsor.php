@@ -254,10 +254,10 @@ nav ul li a{
         font-size: 1vw;
     }
 }
-            
-  
-            
-            
+
+
+
+
 @media(max-width: 780px)
 {
   #heading{
@@ -343,6 +343,18 @@ font-family: 'Oswald', sans-serif;
     /*background-color:rgba(41, 21, 90, 0.69);*/
     color:white;
 }
+@media (max-width: 1116px){
+   nav ul{font-size:2px;}
+ }
+ @media (max-width: 1085px){
+    nav ul{font-size:1px;}
+    label.logo{padding-left: unset;}
+  }
+  @media (max-width: 1034px){
+
+     nav ul{font-size:0px;}
+     label.logo{display: none;}
+   }
 #box3{
     position:relative;
     left:950px;
@@ -516,7 +528,7 @@ font-family: 'Oswald', sans-serif;
     <br>
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-       <nav>
+       <nav style="">
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
                 <i class="fa fa-bars"></i>
