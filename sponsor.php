@@ -516,7 +516,7 @@ font-family: 'Oswald', sans-serif;
     <br>
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-       <nav>
+       <nav style="">
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
                 <i class="fa fa-bars"></i>

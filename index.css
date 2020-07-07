@@ -162,5 +162,11 @@ nav ul li a{
   .set{
     height: 100vh;
   }
+    nav ul{
+
+  height: 80px;
+  width: 100%;
+
+}
 
 }
