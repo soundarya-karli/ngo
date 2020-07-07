@@ -145,6 +145,7 @@ include "functions.php";
                   label.logo{display: none;}
                 }
             @media only screen and (max-width: 521px){
+              img.icon{height:50px;width:50px;}
               #mission, {margin:20px;}
               #mission .fontText, .team h2 {font-size: 40px;}
               #paragraph, #paragraph1, #paragraph3{font-size:18px;}
@@ -194,7 +195,7 @@ include "functions.php";
     overflow:hidden;
   }
   #mission{
-    height: 100vh;
+    height: auto;
     overflow:hidden;
   }
   #initiatives{
@@ -204,7 +205,7 @@ include "functions.php";
   }
 
   .set{
-    height: 100vh;
+    height: auto;
     overflow:hidden;
   }
   #box {
@@ -212,7 +213,7 @@ include "functions.php";
 }
 
 #partners{
-    height: 100vh;
+    height: auto;
     overflow :hidden;
 }
 .responsive1{
@@ -1009,7 +1010,7 @@ function pass(){
             <div class="box-content">
                 <div class="responsive1">
 
-                        <img src="logo.png" >
+                        <img src="img/logo.png" >
                         <div class="des"><a href="https://www.innerworkindia.com" style="text-decoration:none";><h3>Innerwork Solution pvt. ltd.</h3></a></div>
 
                 </div>
