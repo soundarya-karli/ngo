@@ -119,6 +119,21 @@ include "functions.php";
                 color:#e6005c;
             }
             .dropdown-content a:hover{color:#e6005c; }
+            @media (max-width: 858px){
+               nav ul{  z-index: 99;}
+             }
+             @media (max-width: 1116px){
+                nav ul{font-size:2px;}
+              }
+              @media (max-width: 1085px){
+                 nav ul{font-size:1px;}
+                 label.logo{padding-left: unset;}
+               }
+               @media (max-width: 1034px){
+
+                  nav ul{font-size:0px;}
+                  label.logo{display: none;}
+                }
             @media only screen and (max-width: 521px){
               #mission, {margin:20px;}
               #mission .fontText, .team h2 {font-size: 40px;}
