@@ -51,6 +51,9 @@
         button{
             margin-top: 5%;
         }
+        #heading{
+            font-size:35px;
+        }
  #setotp{
                 display:none;
             }
@@ -116,6 +119,28 @@
                 color:#e6005c;
             }
             .dropdown-content a:hover{color:#e6005c; }
+            @media (max-width: 1120px){
+            #heading {
+                font-size: 27px;
+            }
+            #logo {
+                width: 100px;
+                height: 50px;
+            }
+            }
+            @media (max-width: 990px){
+            #heading {
+                font-size: 20px;
+            }
+            .row{
+                display:flex;
+            }
+            #logo {
+                width: 80px;
+                height: 50px;
+            }
+            }
+
 
 
     </style>

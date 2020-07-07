@@ -279,7 +279,7 @@ nav ul li a{
 @media(max-width: 780px)
 {
   #heading{
-    font-size: 30px;
+    font-size: 20px;
   }
   #logo{
   width:90px;

@@ -53,6 +53,7 @@ include "functions.php";
         <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Metal+Mania&family=Oleo+Script&display=swap" rel="stylesheet">
             <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <style>
+            
             #setotp{
                 display:none;
             }

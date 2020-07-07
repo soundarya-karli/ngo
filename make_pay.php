@@ -114,8 +114,72 @@
                 color:#e6005c;
             }
             .dropdown-content a:hover{color:#e6005c; }
+            @media only screen and (max-width: 521px){
+            .invi{
+    display: none;
+  }
+  #home{
+    height: 100vh;
+    overflow:hidden;
+  }
+  #mission{
+    height: 100vh;
+    overflow:hidden;
+  }
+  #initiatives{
+    height: 100vh;
+    overflow:hidden;
+
+  }
+  #achievement{
+    height: 100vh;
+    overflow:hidden;
+  }
+  .set{
+    height: 100vh;
+    overflow:hidden;
+  }
+  #box {
+    height: 20vh;
+}
+#box font{
+    display:none;
+}
+#partners{
+    height: 100vh;
+    overflow :hidden;
+}
+.responsive1{
+    display:block;
+    overflow:hidden;
+}
+.responsive2{
+    display:block;
+    overflow:hidden;
+}
+.responsive3{
+    display:block;
+    overflow:hidden;
+}
+}
 
 
+            @media (max-width: 780px){
+        .row{
+            display:inline;
+        }
+                #heading {
+                font-size: 17px;
+        }
+        #achievement h2 {
+            font-size:40px;
+        }
+}
+    @media(min-width:800px){
+        #box{
+            display : inline-block;
+        }
+    }
 
         </style>
     </head>
@@ -352,7 +416,7 @@
             <div class="container">
                 <div class="row">
                     <div class="container" style="margin-right: 35px">
-                        <font class="fontText" style="margin-left: 270px"> Secretary's Message </font><br>
+                        <font class="fontText" style=""> Secretary's Message </font><br>
                         <hr id="rule" style="margin-left: 450px;"> <br>
                     </div>
 
