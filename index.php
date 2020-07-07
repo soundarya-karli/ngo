@@ -266,9 +266,6 @@ include "functions.php";
         </div>
 
     </div>
-
-
-<br>
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
@@ -369,9 +366,9 @@ include "functions.php";
                             and help them live a better life.We also implement youth welfare schemes and arrange personality
                             development seminar for the youth welfare.Our objective is to establish an equipped blood and eye bank
                             for welfare of the needful.
-                            <p class = "invi"><br><br>We here at Sahayog Apang Bahuudeshya Sanstha believe in equality and humanity.</p>
+                            <p class = "invi">We here at Sahayog Apang Bahuudeshya Sanstha believe in equality and humanity.</p>
 
-                            <p class = "invi"> <br><br>Our vision is to create a developed nation where one day, all children in this nation
+                            <p class = "invi">Our vision is to create a developed nation where one day, all children in this nation
                             will have the opportunity to attain an excellent education and have access to fully functioning and equipped medical system for the disabled ones where we all live gracefully, leading towards a better life.</p>
                             <img src="img/image2.jpg" class="imageDiv">
                         </div>
@@ -379,11 +376,15 @@ include "functions.php";
 
                     </div>
 
+<<<<<<< HEAD
                     <div class="col-lg-1 col-md-3">
 
                         <br><br><br><br><br><br>
 
                     </div>
+=======
+
+>>>>>>> 7a284153a0e53af0b4ab54498b33a7167fa2d619
                 </div>
             </div>
         </div>
@@ -485,7 +486,11 @@ include "functions.php";
                     </div>
 
                     <div class="col-lg-3">
-                        <img src="img/chairman.jpg" class="imageDiv">
+
+                    <br>
+                        <br>
+                    <br>
+                <br><img src="img/chairman.jpg" class="imageDiv">
                     </div>
                 </div>
             </div>
@@ -502,9 +507,16 @@ include "functions.php";
                      <div class="col-lg-3">
 
 
+
                         <img src="img/vice-chairman.jpg" class="imageDiv">
+                     <br>
+
                         <br>
+                     <br>
                         <br>
+
+                        <img src="img/vice-chairman.jpg" class="imageDiv">
+
                     </div>
 
                     <div class="col-lg-9">
@@ -540,6 +552,10 @@ include "functions.php";
 
                     <div class="col-lg-3">
 
+                    <br>
+                        <br>
+                     <br>
+                        <br>
                         <img src="img/ranjan.jpg" class="imageDiv">
                         <br>
                     </div>
