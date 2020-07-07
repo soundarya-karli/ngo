@@ -53,6 +53,14 @@ include "functions.php";
         <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Metal+Mania&family=Oleo+Script&display=swap" rel="stylesheet">
             <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <style>
+        nav {
+    background-color: rgb(252, 182, 121) !important;
+    height: 50px;
+    width: 100%;
+}
+        label.logo{
+          padding-left:10px;
+        }
             #setotp{
                 display:none;
             }
@@ -155,14 +163,14 @@ include "functions.php";
         display: none;
     }
     #nvbr{
-        background-color:white;z-index:1000;
+        ;z-index:1000;
         height:70%;
         top:50px;
     }
-    
+
 }
-                
-                
+
+
 #achievement{margin: min-content;}
 #achievement h2 {font-size:40px;}
 .team-gallery img {margin:auto;}
@@ -300,7 +308,7 @@ include "functions.php";
 
 
 
-        <nav style="z-index: 9999;background-color:white;">
+        <nav style="z-index: 9999;">
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
                 <i class="fas fa-bars"></i>
