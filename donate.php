@@ -218,6 +218,18 @@ nav ul li a{
     font-size: 10px;
   }
 }
+@media (max-width: 1116px){
+   nav ul{font-size:2px;}
+ }
+ @media (max-width: 1085px){
+    nav ul{font-size:1px;}
+    label.logo{padding-left: unset;}
+  }
+  @media (max-width: 1034px){
+
+     nav ul{font-size:0px;}
+     label.logo{display: none;}
+   }
 @media (max-width: 858px){
   #heading{
   font-family: 'Courgette', cursive;

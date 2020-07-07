@@ -10,7 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Metal+Mania&family=Oleo+Script&display=swap" rel="stylesheet">
 
         <!-- Bootstrap CSS -->
-      
+
 
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="index.css" media="all">
@@ -46,7 +46,18 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Metal+Mania&family=Oleo+Script&display=swap" rel="stylesheet">
         <style>
-          
+        @media (max-width: 1116px){
+           nav ul{font-size:2px;}
+         }
+         @media (max-width: 1085px){
+            nav ul{font-size:1px;}
+            label.logo{padding-left: unset;}
+          }
+          @media (max-width: 1034px){
+
+             nav ul{font-size:0px;}
+             label.logo{display: none;}
+           }
              h2{
             margin-left: 10%;
             margin-top: 5%;
@@ -72,7 +83,7 @@
             }
             #validation2{
                 color:white;
-            }            
+            }
 
             #popUpMain_2{
                 position:fixed;
@@ -107,20 +118,20 @@
                 top:22vh;
                 text-align: center;
                 height: 100px;
-                 
-            }            
+
+            }
             .dropdown-content p{
                 padding-bottom:10px;
                 border-bottom: 1px solid #a6a6a6;
-                
+
 
             }
-            
+
             .make_pay:hover .dropdown-content {
-                display: block;               
+                display: block;
             }
             .dropdown-content p:hover{
-                color:#e6005c;                              
+                color:#e6005c;
             }
             .dropdown-content a:hover{color:#e6005c; }
 
@@ -134,7 +145,7 @@
 #heading{
   font-family: 'Courgette', cursive;
   font-family: 'Metal Mania', cursive;
-  
+
   font-size:50px;
   color:white;
 }
@@ -215,7 +226,7 @@ nav ul li a{
   }
     .col-lg-9 col-md-9{
                 margin-top: 10%;
-            } 
+            }
    nav ul{
     position: fixed;
     width: 100%;
@@ -257,7 +268,7 @@ nav ul li a{
 @media(max-width: 780px)
 {
   #heading{
-    
+
   }
   #logo{
   width:90px;
@@ -269,7 +280,7 @@ nav ul li a{
             #heading{
                 padding-top: 10%;
                 margin-top: 10%;
-            }       
+            }
 #mission{
     margin:5px;
     width:100%;
@@ -293,7 +304,7 @@ font-family: 'Oswald', sans-serif;
     border: 4px solid #ff9800 ;
     border-radius:3px;
     width:150px;
-  
+
 }
 
 #paragraph{
@@ -318,7 +329,7 @@ font-family: 'Oswald', sans-serif;
     top:15px;
     width:400px;
     height:270px;
-    background-color:rgb(248, 247, 153); 
+    background-color:rgb(248, 247, 153);
     /*background-color:rgba(137, 194, 224, 0.89);*/
     border-radius:10px;
 }
@@ -333,7 +344,7 @@ font-family: 'Oswald', sans-serif;
     bottom:255px;
     width:400px;
     height:270px;
-    background-color:rgb(248, 247, 153); 
+    background-color:rgb(248, 247, 153);
     /*background-color:rgba(137, 194, 224, 0.89);*/
     border-radius:10px;
 }
@@ -348,7 +359,7 @@ font-family: 'Oswald', sans-serif;
     bottom:525px;
     width:400px;
     height:270px;
-    background-color:rgb(248, 247, 153); 
+    background-color:rgb(248, 247, 153);
     /*background-color:rgba(137, 194, 224, 0.89);*/
     border-radius:10px;
 }
@@ -429,7 +440,7 @@ color:rgb(0, 0, 0);
 font-size:60px;
 font-family: 'Oswald', sans-serif;
 }
-  
+
 #paragraph3{
    /*color:rgba(19, 118, 72, 0.92);*/
     font-size:22px;
@@ -446,14 +457,14 @@ font-family: 'Oswald', sans-serif;
 }
 
          </style>
-    </head> 
+    </head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
 <body>
-    
+
         <?php
       if(isset($_POST['upload'])){
           $target=$_FILES['image']['name'];
@@ -472,7 +483,7 @@ font-family: 'Oswald', sans-serif;
              echo ("<script>window.location='index.php';</script>");
                   }
               }
-              
+
           }
       }
         ?>
@@ -480,7 +491,7 @@ font-family: 'Oswald', sans-serif;
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-       
+
 
     <div id="popUpMain" style="display:none">
         <div id="popUp">
@@ -489,8 +500,8 @@ font-family: 'Oswald', sans-serif;
                 <p id="validation">we are here to help you...</p>
                 &nbsp;&nbsp;&nbsp;<font size="5" color="white">Name:</font>&nbsp;<input type="text" placeholder="Enter name" id="name"><br><br>
                 <font size="5" color="white">Contact:</font>&nbsp;<input type="text" placeholder="Enter contact" id="contact"><br>
-                <font size="5" color="white" style="font-weight:bold;">OR</font><br>   
-                <font size="5" color="white">Email:</font>&nbsp;<input type="text" placeholder="Enter email" id="email"><br>   
+                <font size="5" color="white" style="font-weight:bold;">OR</font><br>
+                <font size="5" color="white">Email:</font>&nbsp;<input type="text" placeholder="Enter email" id="email"><br>
                 <span id="otptxt"><font size="5" color="white">OTP:</font>&nbsp;<input type="text" placeholder="Enter OTP" id="otp"><br></span>
                 <br>
 
@@ -518,7 +529,7 @@ font-family: 'Oswald', sans-serif;
     </div>
 
 
-  
+
     <div id="header">
         <div class="logoTitle">
             <div class="row">
@@ -533,7 +544,7 @@ font-family: 'Oswald', sans-serif;
 
             </div>
         </div>
-        
+
     </div>
     <br>
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
@@ -560,8 +571,8 @@ font-family: 'Oswald', sans-serif;
                     <p><a href="donate2.php" style="text-decoration: none;height: 50px;background-color: #f9f9f9;">Direct Pay</a></p>
 
                     </div>
-                </li>  
-                  
+                </li>
+
 
             </ul>
 
@@ -572,7 +583,7 @@ font-family: 'Oswald', sans-serif;
                 <div class="form-group">
                     <h2 style="position: relative; margin-left: 35%;">Student registration</h2>
 
-                   
+
                         <label for="exampleInputEmail1">Name</label>
                         <input type="text" class="form-control" name="name" id="name2" >
                 </div>
@@ -580,7 +591,7 @@ font-family: 'Oswald', sans-serif;
                             <label for="exampleInputPassword1">Parent's name/guardian name</label>
                             <input type="text" class="form-control"  name="pname">
                         </div>
-                
+
                 <div class="form-group" id="email">
                             <label for="exampleInputPassword1">E-mail address</label>
                             <input type="text" class="form-control" id="email2" name="email">
@@ -603,34 +614,34 @@ font-family: 'Oswald', sans-serif;
                             <label for="exampleInputPassword1">Name of institution</label>
                             <input type="text" class="form-control" id="exampleInputPassword1" name="insti">
                         </div>
-               
-                    
+
+
                         <div class="form-group">
                             <label for="exampleInputPassword1">Adhaar number</label>
                             <input type="text" class="form-control" id="adhaar" name="adhaar">
                         </div>
-                     
-               
+
+
                            <div class="form-group" id="country">
                             <label for="exampleInputPassword1">Disability document (upload in jpeg/jpg/png format):</label>
                             <input type="file" name="image" value="" />
-                        </div> 
+                        </div>
                  <div class="form-group" id="country">
                             <label for="exampleInputPassword1">School id (upload in jpeg/jpg/png format):</label>
                             <input type="file" name="image2" value="" />
-                        </div> 
+                        </div>
                  <div class="form-group" id="country">
                             <label for="exampleInputPassword1">Photo (upload in jpeg/jpg/png format):</label>
                             <input type="file" name="image3" value="" />
-                        </div> 
+                        </div>
                         <button type="submit" class="btn btn-primary" name="upload">Register</button>
                         <button type="reset" class="btn btn-primary">Reset</button>
 
                         </form>
 
-                </div>       
+                </div>
         </div>
-                    
+
 
                <div class="footer">
             <div class="inner-footer">
@@ -646,11 +657,11 @@ font-family: 'Oswald', sans-serif;
                         <a href=""style="text-decoration:none;"><li>Home</li></a>
                         <a href=""style="text-decoration:none;"><li>Mission</li></a>
                         <a href=""style="text-decoration:none;"><li>Initiatives</li></a>
-                        <a href=""style="text-decoration:none;"><li>Message</li></a>  
+                        <a href=""style="text-decoration:none;"><li>Message</li></a>
                     </ul></div>
                 <div class="footer-items">
-                    <ul>    
-                        <a href=""style="text-decoration:none;"><li></li></a>      
+                    <ul>
+                        <a href=""style="text-decoration:none;"><li></li></a>
                         <a href=""style="text-decoration:none;"><li>Team</li></a>
                         <a href=""style="text-decoration:none;"><li>Motivation</li></a>
                         <a href=""style="text-decoration:none;"><li>Contact Us</li></a>

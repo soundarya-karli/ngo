@@ -46,7 +46,18 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Metal+Mania&family=Oleo+Script&display=swap" rel="stylesheet">
         <style>
+        @media (max-width: 1116px){
+           nav ul{font-size:2px;}
+         }
+         @media (max-width: 1085px){
+            nav ul{font-size:1px;}
+            label.logo{padding-left: unset;}
+          }
+          @media (max-width: 1034px){
 
+             nav ul{font-size:0px;}
+             label.logo{display: none;}
+           }
              h2{
             margin-left: 10%;
             margin-top: 5%;
