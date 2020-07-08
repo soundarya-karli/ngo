@@ -26,7 +26,7 @@ include "functions.php";
         <link href="our motivation.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="supporting Partners.css">
         <link rel="stylesheet"  type="text/css" href="footer.css">
-        <link rel="icon" href="ngologo.jpg" type="image/icon type">
+        <link rel="icon" href="img/ngologo.jpg" type="image/icon type">
 
 
         <!-- Added 14June 2020 -->
@@ -49,7 +49,7 @@ include "functions.php";
         <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
 
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
         <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Metal+Mania&family=Oleo+Script&display=swap" rel="stylesheet">
             <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <style>
@@ -93,7 +93,7 @@ include "functions.php";
                 top:50%;
                 left:50%;
                 transform:translate(-50%,-50%);
-                background-image:url("image18.jpg");
+                background-image:url("img/image18.jpg");
                 background-size:cover;
                 border-radius:5px;
                 box-shadow:3px 3px 3px grey;
@@ -145,7 +145,6 @@ include "functions.php";
                   label.logo{display: none;}
                 }
             @media only screen and (max-width: 521px){
-              img.icon{height:50px;width:50px;}
               #mission, {margin:20px;}
               #mission .fontText, .team h2 {font-size: 40px;}
               #paragraph, #paragraph1, #paragraph3{font-size:18px;}
@@ -164,7 +163,7 @@ include "functions.php";
 {
 
     #nvbr{
-        z-index:1000;
+        ;z-index:1000;
         height:70%;
         top:50px;
     }
@@ -191,7 +190,7 @@ include "functions.php";
     display: none;
   }
   #home{
-
+    height: auto;
     overflow:hidden;
   }
   #mission{
@@ -200,10 +199,13 @@ include "functions.php";
   }
   #initiatives{
     height: auto;
-
+    overflow:hidden;
 
   }
-
+  #achievement{
+    height: auto;
+    overflow:hidden;
+  }
   .set{
     height: auto;
     overflow:hidden;
@@ -232,7 +234,7 @@ include "functions.php";
 
 
         </style>
-    </head>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -307,7 +309,7 @@ include "functions.php";
         <nav style="z-index: 9999;">
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
+                <i class="fa fa-bars"></i>
             </label>
 
 
@@ -538,9 +540,6 @@ include "functions.php";
                      <br>
 
                         <br>
-                     <br>
-                        <br>
-
 
 
                     </div>
@@ -595,13 +594,13 @@ include "functions.php";
 
         <!-- Achievements -->
 
-        <div id="achievement" class="container-fluid city" style="height:auto;">
+        <div id="achievement" class="container-fluid city">
 
 
             <div class="container">
 
                 <div class="row">
-                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<h2 style="color: #6b5b95;">Our Achievements</h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="medal.png" class="icon" width="100" height="100">
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<h2 style="color: #6b5b95;">Our Achievements</h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="img/medal.png" class="icon" width="100" height="100">
                     <div id="paragraph3">
                         The Sahayog Apang Bahuudeshya Sanstha(SABS) plays a significant role in the development of rehabilitation services for persons with disabilities. SABS aims to provide support and services to the physically challenged and disabled children. This would include contribution in the areas of health,education and other challenging areas ensuring a brighter future for them.
                     </div>
@@ -1062,7 +1061,7 @@ function pass(){
                     <div class="border"></div>
                     <ul>
                         <li><i class="fa fa-map-marker" aria-hidden="true"></i>H-8,Sahas Society,Garkheda</li>
-                        <li>Parisar,Aurangabad-431005</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Parisar,Aurangabad-431005</li>
                         <li><i class="fa fa-phone" aria-hidden="true"></i>9876435678</li>
                         <li><i class="fa fa-envelope" aria-hidden="true"></i><a href=""style="text-decoration:none;">info@sabsngo.org</a></li>
                     </ul>
